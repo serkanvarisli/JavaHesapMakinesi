@@ -34,10 +34,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        /*System.out.println("Selamlar");
-        int a=35;
-        double b= 3.50;
-        float c=1.25f;*/
         float d, e;
         int islem;
         Scanner scanner = new Scanner(System.in);
