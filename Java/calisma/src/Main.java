@@ -46,9 +46,10 @@ public class Main {
                 "2. Çıkarma işlemi" +
                 "3. Çarpma işlemi" +
                 "4. Bölme işlemi" +
-                "5. Mod Alma işlemi" +
+                "5. Üs Alma işlemi" +
                 "6. Karekök Alma işlemi " +
-                "7. Mutlak değer işlemi");
+                "7. Mod değer işlemi" +
+                "8. Mutlak değer alma işlemi");
         islem = scanner.nextInt();
         while (islem == 6) {
             int sayi;
