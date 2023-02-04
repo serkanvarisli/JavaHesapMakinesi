@@ -37,15 +37,15 @@ public class Main {
         float d, e;
         int islem;
         Scanner scanner = new Scanner(System.in);
-         System.out.println("İşlem seçiniz: " +
-                "1. Toplama İşlemi" +
-                "2. Çıkarma işlemi" +
-                "3. Çarpma işlemi" +
-                "4. Bölme işlemi" +
-                "5. Üs Alma işlemi" +
-                "6. Karekök Alma işlemi " +
-                "7. Mod değer işlemi" +
-                "8. Mutlak değer alma işlemi");
+      System.out.println("İşlem seçiniz: " +
+                "1.Toplama İşlemi " +
+                "2.Çıkarma işlemi " +
+                "3.Çarpma işlemi " +
+                "4.Bölme işlemi " +
+                "5.Üs Alma işlemi " +
+                "6.Karekök Alma işlemi " +
+                "7.Mod değer işlemi " +
+                "8.Mutlak değer alma işlemi ");
         islem = scanner.nextInt();
         while (islem == 6) {
             int sayi;
